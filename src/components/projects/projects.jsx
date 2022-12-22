@@ -18,7 +18,7 @@ const data = [
         image: IMG2,
         title: "co.Cost Database for information about cost of living near your school",
         github: "https://github.com/maz1995/1800_202230_DTC05",
-        tech: "HTML, CSS, Bootstrap, JavaScript, Jquery, Firebase/Firestore",
+        tech: "HTML, CSS, Bootstrap, JavaScript, Jquery, Firebase/Firestore, Agile Methodology",
         demo: "https://github.com"
     },
     {
@@ -26,7 +26,7 @@ const data = [
         image: IMG3,
         title: "League of Legends text Adventure",
         github: "https://github.com/hiem55/comp-1510-a4-justin",
-        tech: "Python",
+        tech: "Python, Data Structures, Algorithms, Unit tests, Documentation",
         demo: "https://github.com"
     },
 ]
