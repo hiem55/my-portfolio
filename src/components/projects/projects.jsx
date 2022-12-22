@@ -47,8 +47,8 @@ const Projects = () => {
                                     <h4>Skills</h4>
                                     <p>{tech}</p>
                                     <div className="project_item-cta">
-                                        <a href={github} className='btn' target='_blank'>Github</a>
-                                        <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                        <a href={github} className='btn' target="_blank" rel="noopener noreferrer">Github</a>
+                                        <a href={demo} className='btn btn-primary' target="_blank" rel="noopener noreferrer">Live Demo</a>
                                     </div>
 
                                 </div>
