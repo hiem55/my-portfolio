@@ -5,8 +5,8 @@ import { BsGithub } from 'react-icons/bs'
 const headersocials = () => {
     return (
         <div className='header_socials'>
-            <a href='https://linkedin.com' targe="_blank"><BsLinkedin /></a>
-            <a href='https://github.com' targe="_blank"><BsGithub /></a>
+            <a href='https://www.linkedin.com/in/justin-oh-6922bb231/' targe="_blank"><BsLinkedin /></a>
+            <a href='https://github.com/hiem55' targe="_blank"><BsGithub /></a>
         </div>
     )
 }
