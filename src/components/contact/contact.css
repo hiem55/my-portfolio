@@ -44,6 +44,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+
 }
 
 input,
@@ -54,6 +55,10 @@ textarea {
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
+    color: var(--color-white);
+}
+
+::placeholder {
     color: var(--color-white);
 }
 
