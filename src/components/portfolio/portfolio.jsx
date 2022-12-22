@@ -1,12 +1,12 @@
 import React from 'react'
 import './portfolio.css'
 
-const portfolio = () => {
+const Portfolio = () => {
     return (
-        <div>
+        <section id='portfolio'>
             portfolio
-        </div>
+        </section>
     )
 }
 
-export default portfolio
+export default Portfolio
