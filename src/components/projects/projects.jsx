@@ -19,7 +19,7 @@ const data = [
         title: "co.Cost Database for information about cost of living near your school",
         github: "https://github.com/maz1995/1800_202230_DTC05",
         tech: "HTML, CSS, Bootstrap, JavaScript, Jquery, Firebase/Firestore, Agile Methodology",
-        demo: "https://github.com"
+        demo: "https://bcit-dtc05-project.web.app/"
     },
     {
         id: 3,
