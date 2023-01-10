@@ -11,7 +11,7 @@ const data = [
         title: "Lost Ark Bot",
         github: "https://github.com/hiem55/LostArkBot",
         tech: "Python (Pyautogui, OpenCV, Numpy)",
-        demo: "https://github.com"
+        demo: null
     },
     {
         id: 2,
@@ -27,7 +27,15 @@ const data = [
         title: "League of Legends text Adventure",
         github: "https://github.com/hiem55/comp-1510-a4-justin",
         tech: "Python, Data Structures, Algorithms, Unit tests, Documentation",
-        demo: "https://github.com"
+        demo: null
+    },
+    {
+        id: 4,
+        image: IMG3,
+        title: "Discord Bot",
+        github: "https://github.com/hiem55/discordbot",
+        tech: "Discord API, Python, Git, Github",
+        demo: null
     },
 ]
 const Projects = () => {
@@ -48,7 +56,7 @@ const Projects = () => {
                                     <p>{tech}</p>
                                     <div className="project_item-cta">
                                         <a href={github} className='btn' target="_blank" rel="noopener noreferrer">Github</a>
-                                        <a href={demo} className='btn btn-primary' target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                        <a href={demo} className='btn btn-primary' target="_blank" disabled={data.demo === null} rel="noopener noreferrer">Live Demo</a>
                                     </div>
 
                                 </div>
