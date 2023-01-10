@@ -3,6 +3,7 @@ import './projects.css'
 import IMG1 from '../../assets/portfolio1.jpeg'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
 
 const data = [
     {
@@ -31,7 +32,7 @@ const data = [
     },
     {
         id: 4,
-        image: IMG3,
+        image: IMG4,
         title: "Discord Bot",
         github: "https://github.com/hiem55/discordbot",
         tech: "Discord API, Python, Git, Github",
@@ -56,7 +57,7 @@ const Projects = () => {
                                     <p>{tech}</p>
                                     <div className="project_item-cta">
                                         <a href={github} className='btn' target="_blank" rel="noopener noreferrer">Github</a>
-                                        <a href={demo} className='btn btn-primary' target="_blank" disabled={data.demo === null} rel="noopener noreferrer">Live Demo</a>
+                                        <a href={demo} className='btn btn-primary' target="_blank" disabled={data.demo === null} rel="noopener noreferrer">Demo</a>
                                     </div>
 
                                 </div>
